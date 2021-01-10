@@ -9,7 +9,7 @@ body {
 	text-rendering: optimizeLegibility;
 	font: 100%/1.618 sans-serif;
 	color: white;
-	background-image: linear-gradient(109.6deg, #111 11.2%, #222 98.7%);
+	background-color: #222;
 	height: 100vh;
 
 	display: flex;
