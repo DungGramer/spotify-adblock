@@ -1,0 +1,40 @@
+[Spotify Adblock]
+! Title: Spotify Adblock
+! Description: Block ads on Spotify
+! Author: DungGramer
+! Version: 1.0
+! Homepage: https://github.com/DungGramer/spotify-adblock
+! Twitter: https://twitter.com/DungGramer
+! Contact: https://www.facebook.com/dung.dev.gramer/
+!
+!-----------------------------------------------------------------------------!
+!
+||weblb-wg.dual-gslb.spotify.com^
+||weblb-wg.gslb.spotify.com^
+||adeventtracker.spotify.com^
+||ads-fa.spotify.com^
+||ads.pubmatic.com^
+||analytics.spotify.com^
+||bounceexchange.com^
+||content.bitsontherun.com^
+||core.insightexpressai.com^
+||d2gi7ultltnc2u.cloudfront.net^
+||d3rt1990lpmkn.cloudfront.net^
+||gtssl2-ocsp.geotrust.com^
+||js.moatads.com^
+||log.spotify.com^
+||media-match.com^
+||omaze.com^
+||www.omaze.com^
+||upgrade.spotify.com^
+||www.spotify-desktop.com^
+||sto3-accesspoint-a88.sto3.spotify.net^
+||upgrade.scdn.co^
+||prod.spotify.map.fastlylb.net^
+||audio-ec.spotify.com^
+||sto3.spotify.com^
+||audio2.spotify.com^
+||http://audio2.spotify.com^
+||www.audio2.spotify.com^
+||desktop.spotify.com^
+||heads-ec.spotify.com^
