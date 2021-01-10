@@ -10,11 +10,14 @@ body {
 	font: 100%/1.618 sans-serif;
 	color: white;
 	background-color: #222;
-	height: 100vh;
+}
+.container {
+	margin: 0 auto;
 
 	display: flex;
 	align-items: center;
 	text-align: center;
+	height: 100vh;
 }
 h2 {
 	margin-bottom: 10px;
@@ -36,9 +39,9 @@ a {
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	margin: 0 auto;
-	justify-content: space-between;
-	height: 90vh;
+	margin: auto;
+	justify-content: space-around;
+	/* height: 90vh; */
 }
 
 .description {
@@ -115,6 +118,8 @@ a {
 footer {
 	display: flex;
 	flex-direction: column;
+	margin-top: 30px;
+	margin-bottom: 25px;
 }
 
 /*------------------------------------*\
@@ -127,6 +132,7 @@ footer {
 	}
 	.button {
 		width: 50%;
+		margin-top: 25px;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -142,6 +148,9 @@ footer {
 	.icon {
 		width: 35%;
 	}
+	.container {
+		/* height: initial; */
+	}
 }
 @media screen and (max-width: 576px) {
 	.wrapper {
@@ -149,5 +158,10 @@ footer {
 	}
 	.icon {
 		width: 50%;
+	}
+}
+@media screen and (max-height: 700px) {
+	.icon {
+		margin-top: 25px;
 	}
 }

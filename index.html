@@ -8,44 +8,46 @@
 		<title>Spotify Adblock | DungGramer</title>
 	</head>
 	<body>
-		<div class="wrapper">
-			<section>
-				<img class="icon" src="./assets/icon/cover-2.png" alt="" />
-				<div class="install">
-					<h2>Install</h2>
-					<a href="https://getadblock.com/">AdBlock</a>
-					<a href="https://adblockplus.org/">AdBlock Plus</a>
-					<a href="https://github.com/gorhill/uBlock">uBlock Origin</a>
-					<a
-						href="https://adguard.com/en/adguard-browser-extension/overview.html"
-						>AdGuard</a
+		<div class="container">
+			<div class="wrapper">
+				<section>
+					<img class="icon" src="./assets/icon/cover-2.png" alt="" />
+					<div class="install">
+						<h2>Install</h2>
+						<a href="https://getadblock.com/">AdBlock</a>
+						<a href="https://adblockplus.org/">AdBlock Plus</a>
+						<a href="https://github.com/gorhill/uBlock">uBlock Origin</a>
+						<a
+							href="https://adguard.com/en/adguard-browser-extension/overview.html"
+							>AdGuard</a
+						>
+					</div>
+					<h2>Spotify Adblock List</h2>
+					<div
+						class="button"
+						onclick="document.querySelector('#subscribe').click()"
 					>
-				</div>
-				<h2>Spotify Adblock List</h2>
-				<div
-					class="button"
-					onclick="document.querySelector('#subscribe').click()"
-				>
-					<a
-						id="subscribe"
-						href="adguard:subscribe?location=https://raw.githubusercontent.com/DungGramer/spotify-adblock/master/spotify-adblock.txt"
-						>Subscribe</a
+						<a
+							id="subscribe"
+							href="adguard:subscribe?location=https://raw.githubusercontent.com/DungGramer/spotify-adblock/master/spotify-adblock.txt"
+							>Subscribe</a
+						>
+					</div>
+					<p class="description">or add it manually</p>
+					<input
+						onfocus="this.select();"
+						class="field-list"
+						type="text"
+						value="https://raw.githubusercontent.com/DungGramer/spotify-adblock/master/spotify-adblock.txt"
+					/>
+				</section>
+				<footer>
+					<a href="https://github.com/DungGramer/spotify-adblock"
+						>Project on Github</a
 					>
-				</div>
-				<p class="description">or add it manually</p>
-				<input
-					onfocus="this.select();"
-					class="field-list"
-					type="text"
-					value="https://raw.githubusercontent.com/DungGramer/spotify-adblock/master/spotify-adblock.txt"
-				/>
-			</section>
-			<footer>
-				<a href="https://github.com/DungGramer/spotify-adblock"
-					>Project on Github</a
-				>
-				<a href="https://www.facebook.com/dung.dev.gramer/">Contact me</a>
-			</footer>
+					<a href="https://www.facebook.com/dung.dev.gramer/">Contact me</a>
+				</footer>
+			</div>
 		</div>
 	</body>
 </html>
