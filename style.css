@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+/*------------------------------------*\
+  # Base
+\*------------------------------------*/
+body {
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	text-rendering: optimizeLegibility;
+	font: 100%/1.618 sans-serif;
+	color: white;
+	background-image: linear-gradient(109.6deg, #111 11.2%, #222 98.7%);
+	height: 100vh;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+h2 {
+	margin-bottom: 10px;
+}
+p {
+}
+section {
+	width: 100%;
+	position: relative;
+}
+a {
+	color: #31d466;
+}
+
+.wrapper {
+	width: 1140px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	margin: 0 auto;
+	justify-content: space-between;
+	height: 90vh;
+}
+
+.description {
+	margin: 15px 0;
+	color: #cac9c9;
+}
+
+.install {
+	margin-bottom: 40px;
+	margin-top: 70px;
+}
+.install a:not(:last-child) {
+	margin-right: 10px;
+}
+
+/*------------------------------------*\
+  # Icon
+\*------------------------------------*/
+.icon {
+	width: 25%;
+}
+
+/*------------------------------------*\
+  # Button
+\*------------------------------------*/
+.button {
+	background-color: #31d466;
+	border-radius: 500px;
+	padding: 15px 20px;
+
+	width: 20%;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.button a {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+.button:focus,
+.button:active {
+	background-color: #135429;
+}
+.button:hover {
+	background-color: #34e06d;
+}
+
+/*------------------------------------*\
+# Input link
+\*------------------------------------*/
+.field-list {
+	color: #31d466;
+	font-size: 16px;
+	padding: 10px 20px;
+	width: 50%;
+	border-radius: 500px;
+	border: 2px solid #31d466;
+}
+.field-list::selection {
+	background-color: #31d466;
+	color: white;
+}
+.field-list:active,
+.field-list:focus {
+	outline: none;
+}
+
+/*------------------------------------*\
+  # Footer
+\*------------------------------------*/
+footer {
+	display: flex;
+	flex-direction: column;
+}
+
+/*------------------------------------*\
+  # Responsive
+\*------------------------------------*/
+
+@media screen and (max-width: 992px) {
+	.wrapper {
+		width: 960px;
+	}
+	.button {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.wrapper {
+		width: 720px;
+	}
+	.button {
+		width: 70%;
+	}
+	.field-list {
+		width: 70%;
+	}
+	.icon {
+		width: 35%;
+	}
+}
+@media screen and (max-width: 576px) {
+	.wrapper {
+		width: 540px;
+	}
+	.icon {
+		width: 50%;
+	}
+}
